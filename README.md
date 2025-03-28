@@ -1,0 +1,47 @@
+## ETBF infection alters stromal gene expression in implant fibrosis
+This repository contains processed data and code supporting the publication _Murine gut microbiota dysbiosis via enteric infection modulates the foreign body response to a distal biomaterial implant._
+
+[insert citation information here]
+
+### Overview
+
+This repository provides the bash and R scripts used to process and analyze the bulk RNA sequencing data used in the study, which investigates the role of ETBF infection on the transcriptomic profile of stromal cells surrounding a biomaterial implant.
+
+The raw data and aligned counts files are available on GEO under accession number [GEOXXXXX] and contains RNA sequencing data from mice 6 weeks after a volumetric muscle loss injury and implantation of a synthetic biomaterial. The mice were treated with antibiotics 11 days before injury and implantation, and mice were gavaged with DPBS or ETBF 7 days before injury and implantation. Stromal (singlet, live, CD31-/CD45-, CD29+) cells were sorted from the harvested quadriceps and subsequently underwent bulk RNA sequencing.
+
+### Repository Contents
+
+The aligned counts files are available in the data directory of this repository, and the results of this analysis are included in the results directory. All scripts required for the analysis are included in the scripts directory. This project used the `renv` package to ensure a reproducible environment, which can be used as:
+
+```r
+install.packages("renv")
+renv::restore()
+```
+
+The analysis scripts have been numbered in the appropriate order for use:
+
+```r
+source("scripts/utils.R")
+source("scripts/1_processing.R")
+source("scripts/2_dge.R")
+source("scripts/3_gsea.R")
+```
+
+### Results and Figures
+
+These scripts generate data used in the manuscript figures:
+
+ - 
+ -
+ -
+
+Figures were created using these exported results.
+
+### Citation
+
+If you use this data or code, please cite:
+[insert citation here]
+
+### Contact
+
+For questions, comments, or concerns, please contact Kavita Krishnan at [kkrishnan@jhmi.edu](mailto:kkrishnan@jhmi.edu) or open an issue in this repository.
