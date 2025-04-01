@@ -7,7 +7,7 @@ This repository contains processed data and code supporting the publication _Mur
 
 This repository provides the bash and R scripts used to process and analyze the bulk RNA sequencing data used in the study, which investigates the role of ETBF infection on the transcriptomic profile of stromal cells surrounding a biomaterial implant.
 
-The raw data and aligned counts files are available on GEO under accession number [GEOXXXXX] and contains RNA sequencing data from mice 6 weeks after a volumetric muscle loss injury and implantation of a synthetic biomaterial. The mice were treated with antibiotics 11 days before injury and implantation, and mice were gavaged with DPBS or ETBF 7 days before injury and implantation. Stromal (singlet, live, CD31-/CD45-, CD29+) cells were sorted from the harvested quadriceps and subsequently underwent bulk RNA sequencing.
+The raw data and aligned counts files are available on GEO under accession number [GEOXXXXX] and contains RNA sequencing data from mice 6 weeks after a volumetric muscle loss injury and implantation of a synthetic biomaterial, with and without ETBF infection (n = 4, each group). On Day -11, both groups were treated with antibiotics. On Day -7, antibiotics were removed, the control group was inoculated with DPBS and the experimental group was inoculated with ETBF. On day 0, both groups underwent volumetric muscle loss surgery with PCL implantation in the defect space. Data was collected 6 week after implantation. Stromal (singlet, live, CD31-/CD45-, CD29+) cells were sorted from the harvested quadriceps and subsequently underwent bulk RNA sequencing.
 
 ### Repository Contents
 
@@ -31,9 +31,10 @@ source("scripts/3_gsea.R")
 
 These scripts generate data used in the manuscript figures:
 
- - 
- -
- -
+ - Figure 3B is a volcano plot created from 2_ETBF_pos_v_neg_dge.csv
+ - Figure 3C contains manually selected genes based on function, subsetted from 2_ETBF_pos_v_neg_dge.csv
+ - Figure 3D reflects the results of 3_reactome_gsea.csv
+ - Figure S10 contains a miscellaneous category of significantly differentially expressed genes from 2_ETBF_pos_v_neg_dge.csv
 
 Figures were created using these exported results.
 
