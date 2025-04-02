@@ -1,13 +1,13 @@
-## ETBF infection alters stromal gene expression in implant fibrosis
+## ETBF infection alters stromal cell gene expression in implant fibrosis
 This repository contains processed data and code supporting the publication _Murine gut microbiota dysbiosis via enteric infection modulates the foreign body response to a distal biomaterial implant._
 
 [insert citation information here]
 
 ### Overview
 
-This repository provides the bash and R scripts used to process and analyze the bulk RNA sequencing data used in the study, which investigates the role of ETBF infection on the transcriptomic profile of stromal cells surrounding a biomaterial implant.
+This repository provides the bash and R scripts used to process and analyze the bulk RNA sequencing data used in the study, which investigates the role of ETBF infection on the transcriptomic profile of stromal cells surrounding a biomaterial (polycaprolactone, PCL) implant.
 
-The raw data and aligned counts files are available on GEO under accession number [GEOXXXXX] and contains RNA sequencing data from mice 6 weeks after a volumetric muscle loss injury and implantation of a synthetic biomaterial, with and without ETBF infection (n = 4, each group). On Day -11, both groups were treated with antibiotics. On Day -7, antibiotics were removed, the control group was inoculated with DPBS and the experimental group was inoculated with ETBF. On day 0, both groups underwent volumetric muscle loss surgery with PCL implantation in the defect space. Data was collected 6 week after implantation. Stromal (singlet, live, CD31-/CD45-, CD29+) cells were sorted from the harvested quadriceps and subsequently underwent bulk RNA sequencing.
+The raw data and aligned counts files have been deposited in NCBI's Gene Expression Omnibus (Edgar et al., 2002) and are accessible through GEO Series accession number [GSE293564](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE293564), containing RNA sequencing data from mice 6 weeks after a volumetric muscle loss injury and implantation of a synthetic biomaterial, with and without ETBF infection (n = 4, each group). On Day -11, both groups were treated with antibiotics. On Day -7, antibiotics were removed, the control group was inoculated with DPBS and the experimental group was inoculated with ETBF. On day 0, both groups underwent volumetric muscle loss surgery with PCL implantation in the defect space. Data was collected 6 week after implantation. Stromal (singlet, live, CD31-/CD45-, CD29+) cells were sorted from the harvested quadriceps and subsequently underwent bulk RNA sequencing.
 
 ### Repository Contents
 
