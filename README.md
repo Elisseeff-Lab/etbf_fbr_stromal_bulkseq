@@ -1,8 +1,6 @@
 ## ETBF infection alters stromal cell gene expression in implant fibrosis
 This repository contains processed data and code supporting the publication _Murine gut microbiota dysbiosis via enteric infection modulates the foreign body response to a distal biomaterial implant._
 
-[insert citation information here]
-
 ### Overview
 
 This repository provides the bash and R scripts used to process and analyze the bulk RNA sequencing data used in the study, which investigates the role of ETBF infection on the transcriptomic profile of stromal cells surrounding a biomaterial (polycaprolactone, PCL) implant.
@@ -40,8 +38,7 @@ Figures were created using these exported results.
 
 ### Citation
 
-If you use this data or code, please cite:
-[insert citation here]
+If you use this data or code, please cite our publication.
 
 ### Contact
 
