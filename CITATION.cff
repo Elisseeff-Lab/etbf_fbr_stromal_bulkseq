@@ -1,14 +1,16 @@
-type: article
-message: "If you use our data or code, please cite our publication."
-authors:
-- family-names: "Yang"
-  given-names: "Brenda"
-title: "Murine gut microbiota dysbiosis via enteric infection modulates the foreign body response to a distal biomaterial implant"
-doi: 10.1073/pnas.2422169122
-date-released: 2025-05-12
-url: "https://www.pnas.org/doi/abs/10.1073/pnas.2422169122"
-journal: "Proceedings of the National Academy of Sciences"
-start: e2422169122
-issue: 20
-volume: 122
-year: 2025
+preferred-citation:
+  type: article
+  message: "If you use our data or code, please cite our publication."
+  authors:
+  - family-names: "Yang"
+    given-names: "Brenda"
+  title: "Murine gut microbiota dysbiosis via enteric infection modulates the foreign body response to a distal biomaterial implant"
+  abstract: "The gut microbiota influences systemic immunity and the function of distal tissues, including the brain, liver, skin, lung, and muscle. However, the role of the gut microbiota in the foreign body response and fibrosis is largely unexplored. To investigate this connection, we perturbed the homeostasis of the murine gut microbiota via infection with the pathogenic bacterial species enterotoxigenic Bacteroides fragilis (ETBF) and implanted particulate material (mean particle size <600 μm) of the synthetic polymer polycaprolactone (PCL) into a distal muscle injury. ETBF infection in mice led to increased neutrophil and γδ T cell infiltration into the PCL implant site. ETBF infection alone promoted systemic inflammation, increased levels of neutrophils in lymphoid tissues, and altered skeletal muscle gene expression. At the PCL implant site, we found significant changes in the transcriptome of sorted stromal cells between infected and control mice, including differences related to ECM components such as proteoglycans and glycosaminoglycans. However, we did not observe ETBF-induced differences in fibrosis levels. These results demonstrate the ability of the gut microbiota to mediate long-distance effects such as immune and stromal responses to a distal biomaterial implant."
+  doi: 10.1073/pnas.2422169122
+  date-released: 2025-05-12
+  url: "https://www.pnas.org/doi/abs/10.1073/pnas.2422169122"
+  journal: "Proceedings of the National Academy of Sciences"
+  pages: e2422169122
+  issue: 20
+  volume: 122
+  year: 2025
