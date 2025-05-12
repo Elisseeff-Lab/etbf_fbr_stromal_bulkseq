@@ -1,5 +1,5 @@
 ## ETBF infection alters stromal cell gene expression in implant fibrosis
-This repository contains processed data and code supporting the publication _Murine gut microbiota dysbiosis via enteric infection modulates the foreign body response to a distal biomaterial implant._
+This repository contains processed data and code supporting the publication [Murine gut microbiota dysbiosis via enteric infection modulates the foreign body response to a distal biomaterial implant.](https://www.pnas.org/doi/10.1073/pnas.2422169122)
 
 ### Overview
 
@@ -38,7 +38,10 @@ Figures were created using these exported results.
 
 ### Citation
 
-If you use this data or code, please cite our publication.
+If you use this data or code, please cite our publication:
+
+Yang, B. et al. Murine gut microbiota dysbiosis via enteric infection modulates the foreign body response to a distal biomaterial implant. Proceedings of the National Academy of Sciences 122, e2422169122 (2025).
+
 
 ### Contact
 
